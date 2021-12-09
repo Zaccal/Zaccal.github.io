@@ -218,7 +218,7 @@ a{
     letter-spacing: 0.2em;
     color: #353738;
     text-align: center;
-    background: url(../img/icon.svg) no-repeat top center;
+    background: url(../img/icon.png) no-repeat top center;
     padding: 68px 0 35px 0 ;
 }
 
@@ -256,7 +256,7 @@ a{
 }
 
 .bike__title {
-    background: url(../img/icon1.svg) no-repeat top center;
+    background: url(../img/icon1.png) no-repeat top center;
     padding: 60px 0 26px 0;
 }
 
@@ -281,7 +281,7 @@ a{
 }
 
 .bike__title_icon{
-    background: url(../img/icon2.svg) no-repeat top center;
+    background: url(../img/icon2.png) no-repeat top center;
 }
 
 .bike-3 .bike-3_img {
@@ -374,6 +374,13 @@ a{
 @media (max-width: 780px) {
     .slider__subtitle{
         padding: 0 0 45px 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .slick-dots button {
+        width: 2px;
+        height: 14px;
     }
 }
 
